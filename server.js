@@ -29,7 +29,7 @@ const port = process.env.PORT || 5000;
 
 //intialize CORS
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://frontend-for-ecommerce.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: [
         "Content-Type",
